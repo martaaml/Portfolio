@@ -463,7 +463,55 @@ div.Botones {
 
 
 
-/*ESTILOS PARA EL FORMULARIO DE CONTACTO*/
+/*ESTILOS PARA OPINION*/
+div.Carrrousel{ /*CARACTERISTICAS DEL CARROSUEL*/
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  grid-gap: 3rem;
+}
+div.etiqueta{ /*POSICIÓN DE LA ETIQUETA*/
+  display: grid;
+  background-color: rgb(255, 221, 189);
+  border-radius: 15px;
+  width: 80%;
+  padding: 1rem;
+}
+div.encabezado{ /*POSICIÓN DEL ENCABEZADO*/
+  display: grid;
+  justify-content: center;
+  grid-template-rows: minmax(4fr,100px);
+}
+div.foto{ /* CARACTERISTICAS PARA EL CIRCULO EN EL QUE IRÁ LA FOTO DE LOS CLIENTES*/
+  border: black solid;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 100%;
+  background-image: url(../img/);}
+div.nombre{ /* CARACTERISTICAS PARA EL CAMPO EN EL QUE EL CLIENTE PONDRÁ SU NOMBRE*/
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 2fr;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: rgb(150, 72, 3);
+}
+div.opinion{ /*CARACTERISTICAS EN LAS QUE EL USUARIO DARÁ SU OPINIÓN*/
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 3fr;
+  font-family: serif;
+  color: rgb(59, 28, 1);
+}
+div.fecha{ /*CARACTERISTICAS PARA QUE EL USUARIO SELECCIONE LA FECHA*/
+  display: grid;
+  justify-content: end;
+  grid-template-rows: 1fr;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(59, 28, 1);
+}
+
 
 
 
